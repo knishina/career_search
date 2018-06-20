@@ -1,0 +1,35 @@
+{
+   search_id: 1,
+   
+title: "Data Analyst",
+   
+company: "Ebay",
+   
+city: "Santa Clara",
+   
+state:"CA",
+   
+url:"https://www.indeed.com/pagead/clk",
+   
+description:"The Research Scientist is responsible for developing innovative algorithms to support advanced health and wellness applications for an IoT system that captures data 24 hours a day supporting millions of devices. This positio
+n requires signal processing and algorithm design experience as well as an understanding of physiological biosignals. This position will take requirements from design through to implementation and work together with algorithm engineers on developing methods and tools for the next generation of products. The main tasks associated to this position range from algorithm design and implementation, to data analysis, optimization and benchmarking with an emphasis on accuracy, speed and performance.
+               Responsibilities
+               Design, develop, and implement novel signal processing algorithms applied to BCG and other physiological signals
+               Perform data analysis, algorithm validation, and performance evaluation
+               Apply advanced statistical methods and work with large and complex data sets
+               Research and assess cutting edge technologies to recommend and integrate into the design and implementation
+               Collaborate with engineering teams to define and refine the biosignal processing algorithms to support advanced health and wellness applications
+               Document and effectively communicate project status, progress, schedules, and potential risks
+               Qualifications
+               PhD degree in Biomedical Engineering, Electrical Engineering or equivalent, with 3+ years experience (or Master’s degree with 5+ years experience)
+               Deep understanding of mathematical foundations of DSP algorithms
+               Strong hands-on experience (coding and debugging) in the development of biomedical signal processing and machine learning methods
+    Experience designing algorithms for compute-constrained environments
+               Proficiency in MATLAB and C is a must
+               Understanding algorithm needs and development of infrastructure to enable fast iterations
+               Demonstrated ability to achieve stretch goals in a highly innovative and fast paced environment
+               Strong communication skills
+               Strong analytical, problem solving and project management skills
+               Previous industry experience developing real-time signal processing algorithms is a plus
+               Experience in biomedical data analysis is preferable"
+      });

@@ -1,0 +1,102 @@
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <meta http-equiv = "X-UA-Compatible" content="ie-edge">
+        <title>Career Search</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/styles1.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.0/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.3.0/dist/leaflet.js"></script>
+
+    </head>
+    <body>
+        <div class="container col-md-12 background_header1">
+            <h1 class="text1">Career Search</h1>
+        </div>
+        
+        <div class="row col-md-12">
+            <div class="container col-md-5 col-md-offset-2 container_size2">
+                <h2>The latest jobs.</h2>
+                <h2>Results you can trust.</h2>
+                <br>
+                <ul>
+                    <li> Search for positions according to job title and key word.</li>
+                    <li> Eliminate duplicate listings and phishing by recruiters.</li>
+                    <li> Find jobs according to commute time and not distance.</li>
+                </ul>
+            </div>
+            <div class="container col-md-3 col-md-offset-2 container_size2">
+                <img class="light_bulb_img" src="../static/images/light_bulb.jpg">
+            </div>
+        </div>
+
+        <div class="row col-md-12" style="background-color: #183A5D">
+            <img src="../static/images/one_tree.jpeg">
+            <div class="text2">Find the right one.</div>
+        </div>
+        <div class="container container_size1">
+            <h1 style="text-align:center">Your career search simplified.</h1>
+        </div>
+        <div class="row">
+            <div class="container col-md-2"></div>
+            <div class="container col-md-4">
+                <p class="text3">Job listing sites are great tools for matching employees with jobs posted by employers.  These sites are wildly successful.  Unfortunately, many job-seekers become overwhelmed by the sheer number of listings that are duplicated across sites or fail to match their qualifications.  </p>
+            </div>
+            <div class="container col-md-4">
+                <p class="text3">This application simplifies the job hunt by gathering postings from various job sites.  In addition to searching for the desired job title, key terms and travel time from home are evaluated for best match.  The top ten results are displayed, streamlining the applicant's search.</p>
+            </div>
+            <div class="container col-md-2"></div>
+        </div>
+        <div class="row" style="height: 100px"></div>
+        <div class="container" style="margin: auto; text-align: center">
+            <a role="button" class="btn btn-secondary" href="results">Try it!</a>
+        </div>
+        <div class="row" style="height: 100px"></div>
+        
+        <div class="container col-md-12 background_header2"></div>
+        
+        <div class="container">
+            <div class="row col-md-12 container_size1" >
+                <h1>New Search:</h1>
+            </div>
+            <div class="row col-md-12">
+                <div class="container col-md-5">
+                    <form name="search" action="/scrape" method="post">
+                        <div class="col">
+                            <input type="text" name="start_locn" class="form-control" placeholder="Start Address">
+                            <br>
+                            <input type="text" name="city" class="form-control" placeholder="City">
+                            <br>
+                            <input type="text" name="zip" class="form-control" placeholder="Zip Code">
+                            <br>
+                            <input type="text" name="state" class="form-control" placeholder="State">
+                            <br>
+                            <input type="text" name="job_title" class="form-control" placeholder="Job Title">
+                            <br>
+                            <input type="text" name="commute_start_time" class="form-control" placeholder="Time Start Commute">
+                            <br>
+                            <input type="text" name="commute_time_in_mins" class="form-control" placeholder="Communte Time (Mins)">
+                            <br>
+                            <br>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="container col-md-1"></div>
+                <div class="container col-md-6">
+                    <img src="../static/images/career.jpg" style="width: 600px; height: auto">
+                </div>
+            </div>
+        </div> 
+        <div class="container" style="height: 100px"></div>
+        <div class="container col-md-12 background_header3"></div>
+    </body>
+
+
+</html>
+
+
